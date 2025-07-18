@@ -1,5 +1,5 @@
 
-const API_BASE_URL = 'http://localhost:3001/api';
+const API_BASE_URL = 'https://228f4a29-9dec-4b73-90e6-428879825d53-00-19xgx8u9ma502.pike.replit.dev';
 
 // Helper function untuk membuat request
 const makeRequest = async (endpoint, options = {}, isFormData = false) => {
