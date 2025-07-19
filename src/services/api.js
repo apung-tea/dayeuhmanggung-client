@@ -1,5 +1,5 @@
 
-const API_BASE_URL = 'https://api-g86hgaslx-apungs-projects-107307fb.vercel.app';
+const API_BASE_URL = 'https://api-x2hqsn1b8-apungs-projects-107307fb.vercel.app';
 
 // Helper function untuk membuat request
 const makeRequest = async (endpoint, options = {}, isFormData = false) => {
