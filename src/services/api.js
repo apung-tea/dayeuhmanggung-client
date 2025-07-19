@@ -1,4 +1,5 @@
 
+// Updated API URL with CORS fix - 2025-07-18
 const API_BASE_URL = 'https://api-x2hqsn1b8-apungs-projects-107307fb.vercel.app';
 
 // Helper function untuk membuat request
