@@ -5,6 +5,8 @@ const API_BASE_URL = 'https://api-g86hgaslx-apungs-projects-107307fb.vercel.app'
 const makeRequest = async (endpoint, options = {}, isFormData = false) => {
   const url = `${API_BASE_URL}/${endpoint}`;
   const config = {
+    mode: 'cors',
+    credentials: 'omit',
     headers: {
       ...(isFormData ? {} : { 'Content-Type': 'application/json' }),
       ...options.headers,
